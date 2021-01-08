@@ -35,7 +35,7 @@ The version of this SDK that you are using.
 
 ### SDK configuration
 
-If it differs from the default, add your SDK configuration here.
+If it differs from the default, add your SDK configuration here e.g. **polling mode**, **refresh interval** or **custom cache**.
 
 ### Logs
 
