@@ -1,3 +1,7 @@
+### Related issues
+
+Provide links to issues relating to this pull request
+
 ### Describe the solution you've provided
 
 Provide a clear and concise description of the changes.

@@ -27,7 +27,7 @@ If applicable, add screenshots to help explain your problem.
 
 ## SDK related information
 
-If you are reporting a bug related to one of our SDK's, please fill the following information also.
+If you are reporting a bug related to one of our SDK's, please provide the following information.
 
 ### SDK version
 
