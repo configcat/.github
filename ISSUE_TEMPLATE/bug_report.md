@@ -35,13 +35,13 @@ The version of this SDK that you are using.
 
 ### SDK configuration
 
-If it differs from the default, add your SDK configuration here e.g. **polling mode**, **refresh interval** or **custom cache**.
+Please copy paste the client initialization code snippet, so we can see how you are using the SDK.
 
 ### Logs
 
 If applicable, add the related SDK's log output here.
 
-### Language version
+### Language/Framework version
 
 E.g. .NET 4.7 or Go 1.11.
 
