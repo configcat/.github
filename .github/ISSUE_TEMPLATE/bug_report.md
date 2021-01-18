@@ -22,29 +22,5 @@ Steps to reproduce the behavior.
 A clear and concise description of what you expected to happen.
 
 ### Screenshots
+
 If applicable, add screenshots to help explain your problem.
-
-
-## SDK related information
-
-If you are reporting a bug related to one of our SDK's, please provide the following information.
-
-### SDK version
-
-The version of this SDK that you are using.
-
-### SDK configuration
-
-Please copy paste the client initialization code snippet, so we can see how you are using the SDK.
-
-### Logs
-
-If applicable, add the related SDK's log output here.
-
-### Language/Framework version
-
-E.g. .NET 4.7 or Go 1.11.
-
-### Platform
-
-E.g. Windows 10, Ubuntu 16.04 or iOS 8. In case of a browser, please include the browser type and version.
