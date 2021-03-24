@@ -1,12 +1,12 @@
-### Related issues
-
-Provide links to issues relating to this pull request
-
-### Describe the solution you've provided
+### Describe the purpose of your pull request
 
 Provide a clear and concise description of the changes.
 
-### Requirement checklist
+### Related issues (only if applicable)
+
+Provide links to issues relating to this pull request
+
+### Requirement checklist (only if applicable)
 
 - [ ] I have covered the applied changes with automated tests.
 - [ ] I have executed the full automated test set against my changes.
