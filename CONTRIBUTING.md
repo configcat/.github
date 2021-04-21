@@ -4,7 +4,7 @@ Feedback and contribution are welcome. Contributions are made to this repo via I
 
 ## Submitting bug reports and feature requests
 
-The ConfigCat team monitors the [issue tracker](issues) in the repository. Bug reports and feature requests specific to this repository should be filed in this issue tracker. The team will respond to all newly filed issues.
+The ConfigCat team monitors the issue tracker in the repository. Bug reports and feature requests specific to this repository should be filed in this issue tracker. The team will respond to all newly filed issues.
 
 ## Submitting pull requests
 
