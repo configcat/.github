@@ -7,7 +7,7 @@
 - Your feature flags get distributed across the ConfigCat CDN.
 - The ConfigCat SDK in your application downloads and evaluates the feature flags.
 
-![Architecture](architecture.jpg)
+![Architecture](profile/architecture.jpg)
 
 ##  🤓 Get started with ConfigCat
 - Website: https://configcat.com/
