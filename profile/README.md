@@ -55,7 +55,7 @@ Integrate ConfigCat with your technology stack and leverage all the benefits of 
 - [Visual Studio Code](https://configcat.com/docs/integrations/vscode/) - Manage feature flags right from your VSCode editor
 
 ## 💁🏼 Contributing
-Feedback and contribution are welcome. [See contribution guide](../CONTRIBUTING.md).
+Feedback and contribution are welcome. [See contribution guide](https://github.com/configcat/.github/blob/master/CONTRIBUTING.md).
 
 ## ☎️ Help & Support
 - [FAQ](https://configcat.com/docs/faq/) - Frequently Asked Questions
