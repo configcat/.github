@@ -37,6 +37,8 @@ The purpose of the SDKs are to download, cache feature flag values and to evalua
 - [Ruby](https://configcat.com/docs/sdk-reference/ruby/)
 - [Elixir](https://configcat.com/docs/sdk-reference/elixir/)
 - [Dart](https://configcat.com/docs/sdk-reference/dart/) (Flutter)
+- [Kotlin Multiplatform](https://configcat.com/docs/sdk-reference/kotlin/)
+- [C++](https://configcat.com/docs/sdk-reference/cpp/)
 
 # 👯 Integrations
 Integrate ConfigCat with your technology stack and leverage all the benefits of Feature flags within your workflows.
