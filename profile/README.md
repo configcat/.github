@@ -23,7 +23,7 @@ Read more about the [ConfigCat components and architecture.](https://configcat.c
 
 ## 🚀 Open-source SDKs
 The purpose of the SDKs are to download, cache feature flag values and to evaluate targeting rules. All SDKs provide a simple interface to access your feature flags from your application.
-- [.NET, .NET Core](https://configcat.com/docs/sdk-reference/csharp/)
+- [.NET, .NET Core](https://configcat.com/docs/sdk-reference/dotnet/)
 - [Java](https://configcat.com/docs/sdk-reference/java/)
 - [Android](https://configcat.com/docs/sdk-reference/android/) (Kotlin)
 - [iOS](https://configcat.com/docs/sdk-reference/ios/) (Swift)
