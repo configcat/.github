@@ -25,8 +25,10 @@ Read more about the [ConfigCat components and architecture.](https://configcat.c
 The purpose of the SDKs are to download, cache feature flag values and to evaluate targeting rules. All SDKs provide a simple interface to access your feature flags from your application.
 - [.NET, .NET Core](https://configcat.com/docs/sdk-reference/dotnet/)
 - [Java](https://configcat.com/docs/sdk-reference/java/)
-- [Android](https://configcat.com/docs/sdk-reference/android/) (Kotlin)
+- [Android](https://configcat.com/docs/sdk-reference/android/) (Java)
+- [Kotlin Multiplatform](https://configcat.com/docs/sdk-reference/kotlin/)
 - [iOS](https://configcat.com/docs/sdk-reference/ios/) (Swift)
+- [Dart](https://configcat.com/docs/sdk-reference/dart/) (Flutter)
 - [JavaScript](https://configcat.com/docs/sdk-reference/js/) (Browser)
 - [React](https://github.com/configcat/react-sdk/)
 - [JavaScript](https://configcat.com/docs/sdk-reference/js-ssr/) (Server-Side Rendered - SSR)
@@ -36,8 +38,6 @@ The purpose of the SDKs are to download, cache feature flag values and to evalua
 - [PHP](https://configcat.com/docs/sdk-reference/php/)
 - [Ruby](https://configcat.com/docs/sdk-reference/ruby/)
 - [Elixir](https://configcat.com/docs/sdk-reference/elixir/)
-- [Dart](https://configcat.com/docs/sdk-reference/dart/) (Flutter)
-- [Kotlin Multiplatform](https://configcat.com/docs/sdk-reference/kotlin/)
 - [C++](https://configcat.com/docs/sdk-reference/cpp/)
 
 # 👯 Integrations
