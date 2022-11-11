@@ -1,6 +1,7 @@
 ### Describe the purpose of your pull request
 
-Provide a clear and concise description of the changes.
+- Provide a clear and concise description of the changes.
+- List the **user facing** changes and if any, add the @configcat/ux team as reviewer.
 
 ### Related issues (only if applicable)
 
