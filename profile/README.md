@@ -30,7 +30,7 @@ The purpose of the SDKs are to download, cache feature flag values and to evalua
 - [iOS](https://configcat.com/docs/sdk-reference/ios/) (Swift)
 - [Dart](https://configcat.com/docs/sdk-reference/dart/) (Flutter)
 - [JavaScript](https://configcat.com/docs/sdk-reference/js/) (Browser)
-- [React](https://github.com/configcat/react-sdk/)
+- [React](https://configcat.com/docs/sdk-reference/react/)
 - [JavaScript](https://configcat.com/docs/sdk-reference/js-ssr/) (Server-Side Rendered - SSR)
 - [Node.js](https://configcat.com/docs/sdk-reference/node/)
 - [Python](https://configcat.com/docs/sdk-reference/python/)
