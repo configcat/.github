@@ -2,6 +2,10 @@ name: Mention UX Team
 
 on:
   workflow_call:
+    inputs:
+      id:
+        required: true
+        type: number
 
 jobs:
   add-comment:
@@ -13,6 +17,6 @@ jobs:
       - name: Mention UX Team in comments
         uses: peter-evans/create-or-update-comment@v3
         with:
-          issue-number: ${{ github.event.issue.number }}
+          issue-number: ${{ inputs.id }}
           body: |
             Head's up @configcat/ux-qa-team - someone needs a UX review!
