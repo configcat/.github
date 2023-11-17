@@ -6,6 +6,12 @@ on:
       id:
         required: true
         type: number
+      repo:
+        required: true
+        type: string
+    secrets:
+      gh_token:
+        required: true
 
 jobs:
   ux-review-comment:
@@ -15,10 +21,12 @@ jobs:
       pull-requests: write
     steps:
       - name: Mention UX Team in comments
-        uses: peter-evans/create-or-update-comment@v3
-        with:
-          issue-number: ${{ inputs.id }}
-          body: |
+        run: gh issue comment "$NUMBER" --repo "$REPO" --body "$BODY"
+        env:
+          GITHUB_TOKEN: ${{ secrets.gh_token }}
+          NUMBER: ${{ inputs.id }}
+          REPO: ${{ inputs.repo }}
+          BODY: |
             Head's up @configcat/ux-qa-team - someone needs a UX review!
             
   text-review-comment:
@@ -28,8 +36,10 @@ jobs:
       pull-requests: write
     steps:
       - name: Mention Text Team in comments
-        uses: peter-evans/create-or-update-comment@v3
-        with:
-          issue-number: ${{ inputs.id }}
-          body: |
+        run: gh issue comment "$NUMBER" --repo "$REPO" --body "$BODY"
+        env:
+          GITHUB_TOKEN: ${{ secrets.gh_token }}
+          NUMBER: ${{ inputs.id }}
+          REPO: ${{ inputs.repo }}
+          BODY: |
             Head's up @configcat/text-reviewers - someone needs a text review!
