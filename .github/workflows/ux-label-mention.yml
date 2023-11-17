@@ -8,7 +8,7 @@ on:
         type: number
 
 jobs:
-  add-comment:
+  ux-review-comment:
     if: github.event.label.name == 'ux-review'
     runs-on: ubuntu-latest
     permissions:
@@ -20,3 +20,16 @@ jobs:
           issue-number: ${{ inputs.id }}
           body: |
             Head's up @configcat/ux-qa-team - someone needs a UX review!
+            
+  text-review-comment:
+    if: github.event.label.name == 'text-review'
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+    steps:
+      - name: Mention Text Team in comments
+        uses: peter-evans/create-or-update-comment@v3
+        with:
+          issue-number: ${{ inputs.id }}
+          body: |
+            Head's up @configcat/text-team - someone needs a text review!
