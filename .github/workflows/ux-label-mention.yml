@@ -32,4 +32,4 @@ jobs:
         with:
           issue-number: ${{ inputs.id }}
           body: |
-            Head's up @configcat/text-team - someone needs a text review!
+            Head's up @configcat/text-reviewers - someone needs a text review!
