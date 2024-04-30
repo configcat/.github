@@ -27,7 +27,7 @@ The purpose of the SDKs are to download, cache feature flag values and to evalua
 - [Java](https://configcat.com/docs/sdk-reference/java/)
 - [Android](https://configcat.com/docs/sdk-reference/android/) (Java)
 - [Kotlin Multiplatform](https://configcat.com/docs/sdk-reference/kotlin/)
-- [iOS](https://configcat.com/docs/sdk-reference/ios/) (Swift)
+- [Swift](https://configcat.com/docs/sdk-reference/ios/) (iOS)
 - [Dart](https://configcat.com/docs/sdk-reference/dart/) (Flutter)
 - [JavaScript](https://configcat.com/docs/sdk-reference/js/) (Browser)
 - [React](https://configcat.com/docs/sdk-reference/react/)
