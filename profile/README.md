@@ -37,6 +37,7 @@ The purpose of the SDKs are to download, cache feature flag values and to evalua
 - [Go](https://configcat.com/docs/sdk-reference/go/)
 - [PHP](https://configcat.com/docs/sdk-reference/php/)
 - [Ruby](https://configcat.com/docs/sdk-reference/ruby/)
+- [Rust](https://configcat.com/docs/sdk-reference/rust/)
 - [Elixir](https://configcat.com/docs/sdk-reference/elixir/)
 - [C++](https://configcat.com/docs/sdk-reference/cpp/)
 
@@ -54,7 +55,10 @@ Integrate ConfigCat with your technology stack and leverage all the benefits of 
 - [Bitbucket Pipe](https://configcat.com/docs/integrations/bitbucket/) - Scan source code for unused feature flags
 - [Bitrise Step](https://configcat.com/docs/integrations/bitrise/) - Scan source code for unused feature flags
 - [Terraform](https://configcat.com/docs/integrations/terraform/) - Manage feature flags directly from HCL scripts
-- [Amplitude](https://configcat.com/docs/integrations/amplitude/) - Add feature flag changes to your charts
+- [Amplitude](https://configcat.com/docs/integrations/amplitude/) - Add feature flag changes to your charts, send feature flag evaluation analytics
+- [Mixpanel](https://configcat.com/docs/integrations/mixpanel/) - Add feature flag changes to your charts, send feature flag evaluation analytics
+- [Twilio Segment](https://configcat.com/docs/integrations/segment/) - Add feature flag changes to your charts, send feature flag evaluation analytics
+- [Google Analytics](https://configcat.com/docs/integrations/google-analytics/) - Send feature flag evaluation analytics
 - [Visual Studio Code](https://configcat.com/docs/integrations/vscode/) - Manage feature flags right from your VSCode editor
 
 ## 💁🏼 Contributing
