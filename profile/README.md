@@ -9,7 +9,7 @@
 
 Read more about the [ConfigCat components and architecture.](https://configcat.com/architecture/)
 
-![Architecture](profile/architecture.jpg)
+![Architecture](https://github.com/configcat/.github/blob/master/profile/architecture.jpg)
 
 ##  🤓 Get started with ConfigCat
 - Website: https://configcat.com/
