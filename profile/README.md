@@ -23,44 +23,61 @@ Read more about the [ConfigCat components and architecture.](https://configcat.c
 
 ## 🚀 Open-source SDKs
 The purpose of the SDKs are to download, cache feature flag values and to evaluate targeting rules. All SDKs provide a simple interface to access your feature flags from your application.
-- [.NET, .NET Core](https://configcat.com/docs/sdk-reference/dotnet/)
-- [Java](https://configcat.com/docs/sdk-reference/java/)
-- [Android](https://configcat.com/docs/sdk-reference/android/) (Java)
-- [Kotlin Multiplatform](https://configcat.com/docs/sdk-reference/kotlin/)
-- [Swift](https://configcat.com/docs/sdk-reference/ios/) (iOS)
-- [Dart](https://configcat.com/docs/sdk-reference/dart/) (Flutter)
-- [JavaScript](https://configcat.com/docs/sdk-reference/js/) (Browser)
-- [React](https://configcat.com/docs/sdk-reference/react/)
-- [JavaScript](https://configcat.com/docs/sdk-reference/js-ssr/) (Server-Side Rendered - SSR)
-- [Node.js](https://configcat.com/docs/sdk-reference/node/)
-- [Python](https://configcat.com/docs/sdk-reference/python/)
-- [Go](https://configcat.com/docs/sdk-reference/go/)
-- [PHP](https://configcat.com/docs/sdk-reference/php/)
-- [Ruby](https://configcat.com/docs/sdk-reference/ruby/)
-- [Rust](https://configcat.com/docs/sdk-reference/rust/)
-- [Elixir](https://configcat.com/docs/sdk-reference/elixir/)
-- [C++](https://configcat.com/docs/sdk-reference/cpp/)
-- [Unreal Engine](https://configcat.com/docs/sdk-reference/unreal/)
 
-# 👯 Integrations
+| SDK  |      |      |
+| ---- | ---- | ---- |
+| .NET | [Documentation](https://configcat.com/docs/sdk-reference/dotnet/) | [Source code](https://github.com/configcat/.net-sdk) |
+| Android (Java) | [Documentation](https://configcat.com/docs/sdk-reference/android/) | [Source code](https://github.com/configcat/android-sdk) |
+| C++ | [Documentation](https://configcat.com/docs/sdk-reference/cpp/) | [Source code](https://github.com/configcat/cpp-sdk) |
+| Dart (Flutter) | [Documentation](https://configcat.com/docs/sdk-reference/dart/) | [Source code](https://github.com/configcat/dart-sdk) |
+| Elixir | [Documentation](https://configcat.com/docs/sdk-reference/elixir/) | [Source code](https://github.com/configcat/elixir-sdk) |
+| Go | [Documentation](https://configcat.com/docs/sdk-reference/go/) | [Source code](https://github.com/configcat/go-sdk) |
+| Java | [Documentation](https://configcat.com/docs/sdk-reference/java/) | [Source code](https://github.com/configcat/java-sdk) |
+| JavaScript (Browser) | [Documentation](https://configcat.com/docs/sdk-reference/js/) | [Source code](https://github.com/configcat/js-sdk) |
+| JavaScript (React) | [Documentation](https://configcat.com/docs/sdk-reference/react/) | [Source code](https://github.com/configcat/react-sdk) |
+| JavaScript (Server-Side Rendered - SSR)| [Documentation](https://configcat.com/docs/sdk-reference/js-ssr/) | [Source code](https://github.com/configcat/js-ssr-sdk) |
+| Kotlin Multiplatform | [Documentation](https://configcat.com/docs/sdk-reference/kotlin/) | [Source code](https://github.com/configcat/kotlin-sdk) |
+| Node.js | [Documentation](https://configcat.com/docs/sdk-reference/node/) | [Source code](https://github.com/configcat/node-sdk) |
+| PHP | [Documentation](https://configcat.com/docs/sdk-reference/php/) | [Source code](https://github.com/configcat/php-sdk) |
+| Python | [Documentation](https://configcat.com/docs/sdk-reference/python/) | [Source code](https://github.com/configcat/python-sdk) |
+| Ruby | [Documentation](https://configcat.com/docs/sdk-reference/ruby/) | [Source code](https://github.com/configcat/ruby-sdk) |
+| Rust | [Documentation](https://configcat.com/docs/sdk-reference/rust/) | [Source code](https://github.com/configcat/rust-sdk) |
+| Swift (iOS) | [Documentation](https://configcat.com/docs/sdk-reference/ios/) | [Source code](https://github.com/configcat/swift-sdk) |
+| Unreal Engine | [Documentation](https://configcat.com/docs/sdk-reference/unreal/) | [Source code](https://github.com/configcat/unreal-engine-sdk) |
+
+### OpenFeature Providers
+[OpenFeature](https://openfeature.dev/docs/reference/intro) is an open specification that provides a vendor-agnostic, community-driven API for feature flagging. ConfigCat offers providers for the following platforms supported by OpenFeature SDKs.
+
+| Provider  |      |      |
+| --------- | ---- | ---- |
+| .NET | [Documentation](https://configcat.com/docs/sdk-reference/openfeature/dotnet/) | [Source code](https://github.com/open-feature/dotnet-sdk-contrib/tree/main/src/OpenFeature.Contrib.Providers.ConfigCat) |
+| Go | [Documentation](https://configcat.com/docs/sdk-reference/openfeature/go/) | [Source code](https://github.com/open-feature/go-sdk-contrib/tree/main/providers/configcat) |
+| Java | [Documentation](https://configcat.com/docs/sdk-reference/openfeature/java/) | [Source code](https://github.com/open-feature/java-sdk-contrib/tree/main/providers/configcat) |
+| JavaScript | [Documentation](https://configcat.com/docs/sdk-reference/openfeature/js/) | [Source code](https://github.com/open-feature/js-sdk-contrib/tree/main/libs/providers/config-cat-web) |
+| Node.js | [Documentation](https://configcat.com/docs/sdk-reference/openfeature/node/) | [Source code](https://github.com/open-feature/js-sdk-contrib/tree/main/libs/providers/config-cat) |
+| PHP | [Documentation](https://configcat.com/docs/sdk-reference/openfeature/php/) | [Source code](https://github.com/configcat/openfeature-php) |
+| Python | [Documentation](https://configcat.com/docs/sdk-reference/openfeature/python/) | [Source code](https://github.com/configcat/openfeature-python) |
+| Rust | [Documentation](https://configcat.com/docs/sdk-reference/openfeature/rust/) | [Source code](https://github.com/configcat/openfeature-rust) |
+
+## 👯 Integrations
 Integrate ConfigCat with your technology stack and leverage all the benefits of Feature flags within your workflows.
-- [Slack](https://configcat.com/docs/integrations/slack/) - Get notified when a feature flag changes.
-- [Jira Cloud Plugin](https://configcat.com/docs/integrations/jira/) - Manage feature flags right from Jira
-- [Trello Power-Up](https://configcat.com/docs/integrations/trello/) - Manage feature flags right from your Trello board
-- [monday.com](https://configcat.com/docs/integrations/monday/) - Manage feature flags right from your monday.com board
+- [Amplitude](https://configcat.com/docs/integrations/amplitude/) - Add feature flag changes to your charts, send feature flag 
+- [Bitbucket Pipe](https://configcat.com/docs/integrations/bitbucket/) - Scan source code for feature flags
+- [Bitrise Step](https://configcat.com/docs/integrations/bitrise/) - Scan source code for feature flags
+- [CircleCI Orb](https://configcat.com/docs/integrations/circleci/) - Scan source code for feature flags
 - [Datadog](https://configcat.com/docs/integrations/datadog/) - Send feature flag change events to your monitors
+- [GitHub Action](https://configcat.com/docs/integrations/github/) - Scan source code for feature flags
+- [Google Analytics](https://configcat.com/docs/integrations/google-analytics/) - Send feature flag evaluation analytics
+- [Jira Cloud Plugin](https://configcat.com/docs/integrations/jira/) - Manage feature flags right from Jira
+- [Mixpanel](https://configcat.com/docs/integrations/mixpanel/) - Add feature flag changes to your charts, send feature flag evaluation analytics
+- [monday.com](https://configcat.com/docs/integrations/monday/) - Manage feature flags right from your monday.com board
+- [Slack](https://configcat.com/docs/integrations/slack/) - Get notified when a feature flag changes
+- [Terraform](https://configcat.com/docs/integrations/terraform/) - Manage feature flags directly from HCL scriptsevaluation analytics
+- [Trello Power-Up](https://configcat.com/docs/integrations/trello/) - Manage feature flags right from your Trello board
+- [Twilio Segment](https://configcat.com/docs/integrations/segment/) - Add feature flag changes to your charts, send feature flag evaluation analytics
+- [Visual Studio Code](https://configcat.com/docs/integrations/vscode/) - Manage feature flags right from your VSCode editor
 - [Zapier Zap](https://configcat.com/docs/integrations/zapier/) - Build workflows based on feature flags
 - [Zoho Flow](https://configcat.com/docs/integrations/zoho-flow/) - Automate tasks and build feature flag based workflows
-- [GitHub Action](https://configcat.com/docs/integrations/github/) - Scan source code for unused feature flags
-- [CircleCI Orb](https://configcat.com/docs/integrations/circleci/) - Scan source code for unused feature flags
-- [Bitbucket Pipe](https://configcat.com/docs/integrations/bitbucket/) - Scan source code for unused feature flags
-- [Bitrise Step](https://configcat.com/docs/integrations/bitrise/) - Scan source code for unused feature flags
-- [Terraform](https://configcat.com/docs/integrations/terraform/) - Manage feature flags directly from HCL scripts
-- [Amplitude](https://configcat.com/docs/integrations/amplitude/) - Add feature flag changes to your charts, send feature flag evaluation analytics
-- [Mixpanel](https://configcat.com/docs/integrations/mixpanel/) - Add feature flag changes to your charts, send feature flag evaluation analytics
-- [Twilio Segment](https://configcat.com/docs/integrations/segment/) - Add feature flag changes to your charts, send feature flag evaluation analytics
-- [Google Analytics](https://configcat.com/docs/integrations/google-analytics/) - Send feature flag evaluation analytics
-- [Visual Studio Code](https://configcat.com/docs/integrations/vscode/) - Manage feature flags right from your VSCode editor
 
 ## 💁🏼 Contributing
 Feedback and contribution are welcome. [See contribution guide](https://github.com/configcat/.github/blob/master/CONTRIBUTING.md).
