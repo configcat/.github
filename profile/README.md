@@ -61,23 +61,23 @@ The purpose of the SDKs are to download, cache feature flag values and to evalua
 
 ## 👯 Integrations
 Integrate ConfigCat with your technology stack and leverage all the benefits of Feature flags within your workflows.
-- [Slack](https://configcat.com/docs/integrations/slack/) - Get notified when a feature flag changes.
-- [Jira Cloud Plugin](https://configcat.com/docs/integrations/jira/) - Manage feature flags right from Jira
-- [Trello Power-Up](https://configcat.com/docs/integrations/trello/) - Manage feature flags right from your Trello board
-- [monday.com](https://configcat.com/docs/integrations/monday/) - Manage feature flags right from your monday.com board
+- [Amplitude](https://configcat.com/docs/integrations/amplitude/) - Add feature flag changes to your charts, send feature flag 
+- [Bitbucket Pipe](https://configcat.com/docs/integrations/bitbucket/) - Scan source code for feature flags
+- [Bitrise Step](https://configcat.com/docs/integrations/bitrise/) - Scan source code for feature flags
+- [CircleCI Orb](https://configcat.com/docs/integrations/circleci/) - Scan source code for feature flags
 - [Datadog](https://configcat.com/docs/integrations/datadog/) - Send feature flag change events to your monitors
+- [GitHub Action](https://configcat.com/docs/integrations/github/) - Scan source code for feature flags
+- [Google Analytics](https://configcat.com/docs/integrations/google-analytics/) - Send feature flag evaluation analytics
+- [Jira Cloud Plugin](https://configcat.com/docs/integrations/jira/) - Manage feature flags right from Jira
+- [Mixpanel](https://configcat.com/docs/integrations/mixpanel/) - Add feature flag changes to your charts, send feature flag evaluation analytics
+- [monday.com](https://configcat.com/docs/integrations/monday/) - Manage feature flags right from your monday.com board
+- [Slack](https://configcat.com/docs/integrations/slack/) - Get notified when a feature flag changes
+- [Terraform](https://configcat.com/docs/integrations/terraform/) - Manage feature flags directly from HCL scriptsevaluation analytics
+- [Trello Power-Up](https://configcat.com/docs/integrations/trello/) - Manage feature flags right from your Trello board
+- [Twilio Segment](https://configcat.com/docs/integrations/segment/) - Add feature flag changes to your charts, send feature flag evaluation analytics
+- [Visual Studio Code](https://configcat.com/docs/integrations/vscode/) - Manage feature flags right from your VSCode editor
 - [Zapier Zap](https://configcat.com/docs/integrations/zapier/) - Build workflows based on feature flags
 - [Zoho Flow](https://configcat.com/docs/integrations/zoho-flow/) - Automate tasks and build feature flag based workflows
-- [GitHub Action](https://configcat.com/docs/integrations/github/) - Scan source code for unused feature flags
-- [CircleCI Orb](https://configcat.com/docs/integrations/circleci/) - Scan source code for unused feature flags
-- [Bitbucket Pipe](https://configcat.com/docs/integrations/bitbucket/) - Scan source code for unused feature flags
-- [Bitrise Step](https://configcat.com/docs/integrations/bitrise/) - Scan source code for unused feature flags
-- [Terraform](https://configcat.com/docs/integrations/terraform/) - Manage feature flags directly from HCL scripts
-- [Amplitude](https://configcat.com/docs/integrations/amplitude/) - Add feature flag changes to your charts, send feature flag evaluation analytics
-- [Mixpanel](https://configcat.com/docs/integrations/mixpanel/) - Add feature flag changes to your charts, send feature flag evaluation analytics
-- [Twilio Segment](https://configcat.com/docs/integrations/segment/) - Add feature flag changes to your charts, send feature flag evaluation analytics
-- [Google Analytics](https://configcat.com/docs/integrations/google-analytics/) - Send feature flag evaluation analytics
-- [Visual Studio Code](https://configcat.com/docs/integrations/vscode/) - Manage feature flags right from your VSCode editor
 
 ## 💁🏼 Contributing
 Feedback and contribution are welcome. [See contribution guide](https://github.com/configcat/.github/blob/master/CONTRIBUTING.md).
