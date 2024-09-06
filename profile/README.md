@@ -23,7 +23,7 @@ Read more about the [ConfigCat components and architecture.](https://configcat.c
 
 ## 🚀 Open-source SDKs
 The purpose of the SDKs are to download, cache feature flag values and to evaluate targeting rules. All SDKs provide a simple interface to access your feature flags from your application.
-- [.NET, .NET Core](https://configcat.com/docs/sdk-reference/dotnet/)
+- [.NET](https://configcat.com/docs/sdk-reference/dotnet/)
 - [Java](https://configcat.com/docs/sdk-reference/java/)
 - [Android](https://configcat.com/docs/sdk-reference/android/) (Java)
 - [Kotlin Multiplatform](https://configcat.com/docs/sdk-reference/kotlin/)
@@ -42,7 +42,19 @@ The purpose of the SDKs are to download, cache feature flag values and to evalua
 - [C++](https://configcat.com/docs/sdk-reference/cpp/)
 - [Unreal Engine](https://configcat.com/docs/sdk-reference/unreal/)
 
-# 👯 Integrations
+### OpenFeature Providers
+[OpenFeature](https://openfeature.dev/docs/reference/intro) is an open specification that provides a vendor-agnostic, community-driven API for feature flagging. ConfigCat offers providers for the following platforms supported by OpenFeature SDKs.
+
+- [.NET](https://configcat.com/docs/sdk-reference/openfeature/dotnet/)
+- [Java](https://configcat.com/docs/sdk-reference/openfeature/java/)
+- [JavaScript](https://configcat.com/docs/sdk-reference/openfeature/js/)
+- [Node.js](https://configcat.com/docs/sdk-reference/openfeature/node/)
+- [Python](https://configcat.com/docs/sdk-reference/openfeature/python/)
+- [Go](https://configcat.com/docs/sdk-reference/openfeature/go/)
+- [PHP](https://configcat.com/docs/sdk-reference/openfeature/php/)
+- [Rust](https://configcat.com/docs/sdk-reference/openfeature/rust/)
+
+## 👯 Integrations
 Integrate ConfigCat with your technology stack and leverage all the benefits of Feature flags within your workflows.
 - [Slack](https://configcat.com/docs/integrations/slack/) - Get notified when a feature flag changes.
 - [Jira Cloud Plugin](https://configcat.com/docs/integrations/jira/) - Manage feature flags right from Jira
