@@ -49,7 +49,7 @@ The purpose of the SDKs are to download, cache feature flag values and to evalua
 [OpenFeature](https://openfeature.dev/docs/reference/intro) is an open specification that provides a vendor-agnostic, community-driven API for feature flagging. ConfigCat offers providers for the following platforms supported by OpenFeature SDKs.
 
 | Provider  |      |      |
-| ---- | ---- | ---- |
+| --------- | ---- | ---- |
 | .NET | [Documentation](https://configcat.com/docs/sdk-reference/openfeature/dotnet/) | [Source code](https://github.com/open-feature/dotnet-sdk-contrib/tree/main/src/OpenFeature.Contrib.Providers.ConfigCat) |
 | Go | [Documentation](https://configcat.com/docs/sdk-reference/openfeature/go/) | [Source code](https://github.com/open-feature/go-sdk-contrib/tree/main/providers/configcat) |
 | Java | [Documentation](https://configcat.com/docs/sdk-reference/openfeature/java/) | [Source code](https://github.com/open-feature/java-sdk-contrib/tree/main/providers/configcat) |
