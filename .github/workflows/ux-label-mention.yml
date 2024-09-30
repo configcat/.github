@@ -12,6 +12,8 @@ on:
     secrets:
       gh_token:
         required: true
+      slack_webhook_url:
+        required: true
 
 jobs:
   ux-review-comment:
@@ -53,4 +55,4 @@ jobs:
               "pr_url": "${{ github.event.pull_request.html_url }}"
             }
         env:
-          SLACK_WEBHOOK_URL: ${{ secrets.UX_REVIEW_URL }}
+          SLACK_WEBHOOK_URL: ${{ secrets.slack_webhook_url }}
