@@ -30,6 +30,18 @@ jobs:
           REPO: ${{ inputs.repo }}
           BODY: |
             Head's up @configcat/ux-qa-team - someone needs a UX review!
+      - name: Trigger Slack workflow
+        id: slack
+        uses: slackapi/slack-github-action@v1.27.0
+        with:
+          payload: |
+            {
+              "pr_name": "${{ github.event.pull_request.title }}",
+              "pr_url": "${{ github.event.pull_request.html_url }}",
+              "type": "UX"
+            }
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.slack_webhook_url }}
             
   text-review-comment:
     if: github.event.label.name == 'text-review'
@@ -52,7 +64,8 @@ jobs:
           payload: |
             {
               "pr_name": "${{ github.event.pull_request.title }}",
-              "pr_url": "${{ github.event.pull_request.html_url }}"
+              "pr_url": "${{ github.event.pull_request.html_url }}",
+              "type": "TEXT"
             }
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.slack_webhook_url }}
