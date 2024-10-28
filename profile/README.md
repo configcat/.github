@@ -43,6 +43,7 @@ The purpose of the SDKs are to download, cache feature flag values and to evalua
 | Ruby | [Documentation](https://configcat.com/docs/sdk-reference/ruby/) | [Source code](https://github.com/configcat/ruby-sdk) |
 | Rust | [Documentation](https://configcat.com/docs/sdk-reference/rust/) | [Source code](https://github.com/configcat/rust-sdk) |
 | Swift (iOS) | [Documentation](https://configcat.com/docs/sdk-reference/ios/) | [Source code](https://github.com/configcat/swift-sdk) |
+| Unity | [Documentation](https://configcat.com/docs/sdk-reference/unity/) | [Source code](https://github.com/configcat/.net-sdk) |
 | Unreal Engine | [Documentation](https://configcat.com/docs/sdk-reference/unreal/) | [Source code](https://github.com/configcat/unreal-engine-sdk) |
 
 ### OpenFeature Providers
