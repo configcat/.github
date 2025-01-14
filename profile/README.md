@@ -69,6 +69,7 @@ Integrate ConfigCat with your technology stack and leverage all the benefits of 
 - [Datadog](https://configcat.com/docs/integrations/datadog/) - Send feature flag change events to your monitors
 - [GitHub Action](https://configcat.com/docs/integrations/github/) - Scan source code for feature flags
 - [Google Analytics](https://configcat.com/docs/integrations/google-analytics/) - Send feature flag evaluation analytics
+- [JetBrains/IntelliJ](https://configcat.com/docs/integrations/intellij/) - Manage feature flags right from your JetBrains IDEs
 - [Jira Cloud Plugin](https://configcat.com/docs/integrations/jira/) - Manage feature flags right from Jira
 - [Mixpanel](https://configcat.com/docs/integrations/mixpanel/) - Add feature flag changes to your charts, send feature flag evaluation analytics
 - [monday.com](https://configcat.com/docs/integrations/monday/) - Manage feature flags right from your monday.com board
