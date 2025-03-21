@@ -4,7 +4,7 @@
 
 ### Related issues (only if applicable)
 
-- Provide links to issues relating to this pull request
+- Provide links to issues relating to this pull request.
 
 ### How to test? (only if applicable)
 - What part of the application was affected by the changes? What should be tested?
