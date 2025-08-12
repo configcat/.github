@@ -61,10 +61,13 @@ The purpose of the SDKs are to download, cache feature flag values and to evalua
 | Go | [Documentation](https://configcat.com/docs/sdk-reference/openfeature/go/) | [Source code](https://github.com/open-feature/go-sdk-contrib/tree/main/providers/configcat) |
 | Java | [Documentation](https://configcat.com/docs/sdk-reference/openfeature/java/) | [Source code](https://github.com/open-feature/java-sdk-contrib/tree/main/providers/configcat) |
 | JavaScript | [Documentation](https://configcat.com/docs/sdk-reference/openfeature/js/) | [Source code](https://github.com/open-feature/js-sdk-contrib/tree/main/libs/providers/config-cat-web) |
+| Kotlin (Android) | [Documentation](https://configcat.com/docs/sdk-reference/openfeature/kotlin/) | [Source code](https://github.com/configcat/openfeature-kotlin) |
 | Node.js | [Documentation](https://configcat.com/docs/sdk-reference/openfeature/node/) | [Source code](https://github.com/open-feature/js-sdk-contrib/tree/main/libs/providers/config-cat) |
 | PHP | [Documentation](https://configcat.com/docs/sdk-reference/openfeature/php/) | [Source code](https://github.com/configcat/openfeature-php) |
 | Python | [Documentation](https://configcat.com/docs/sdk-reference/openfeature/python/) | [Source code](https://github.com/configcat/openfeature-python) |
+| Ruby | [Documentation](https://configcat.com/docs/sdk-reference/openfeature/ruby/) | [Source code](https://github.com/configcat/openfeature-ruby) |
 | Rust | [Documentation](https://configcat.com/docs/sdk-reference/openfeature/rust/) | [Source code](https://github.com/configcat/openfeature-rust) |
+| Swift (iOS) | [Documentation](https://configcat.com/docs/sdk-reference/openfeature/swift/) | [Source code](https://github.com/configcat/openfeature-swift) |
 
 ## 👯 Integrations
 Integrate ConfigCat with your technology stack and leverage all the benefits of Feature flags within your workflows.
