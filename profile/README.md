@@ -33,18 +33,24 @@ The purpose of the SDKs are to download, cache feature flag values and to evalua
 | Elixir | [Documentation](https://configcat.com/docs/sdk-reference/elixir/) | [Source code](https://github.com/configcat/elixir-sdk) |
 | Go | [Documentation](https://configcat.com/docs/sdk-reference/go/) | [Source code](https://github.com/configcat/go-sdk) |
 | Java | [Documentation](https://configcat.com/docs/sdk-reference/java/) | [Source code](https://github.com/configcat/java-sdk) |
-| JavaScript (Browser) | [Documentation](https://configcat.com/docs/sdk-reference/js/) | [Source code](https://github.com/configcat/js-sdk) |
-| JavaScript (React) | [Documentation](https://configcat.com/docs/sdk-reference/react/) | [Source code](https://github.com/configcat/react-sdk) |
-| JavaScript (Server-Side Rendered - SSR)| [Documentation](https://configcat.com/docs/sdk-reference/js-ssr/) | [Source code](https://github.com/configcat/js-ssr-sdk) |
+| JavaScript (Browser, Bun, Chromium Extension, Cloudflare Worker, Deno, Node.js) | [Documentation](https://configcat.com/docs/sdk-reference/js/overview/) | [Source code](https://github.com/configcat/js-unified-sdk) |
 | Kotlin Multiplatform | [Documentation](https://configcat.com/docs/sdk-reference/kotlin/) | [Source code](https://github.com/configcat/kotlin-sdk) |
-| Node.js | [Documentation](https://configcat.com/docs/sdk-reference/node/) | [Source code](https://github.com/configcat/node-sdk) |
 | PHP | [Documentation](https://configcat.com/docs/sdk-reference/php/) | [Source code](https://github.com/configcat/php-sdk) |
 | Python | [Documentation](https://configcat.com/docs/sdk-reference/python/) | [Source code](https://github.com/configcat/python-sdk) |
+| React | [Documentation](https://configcat.com/docs/sdk-reference/react/) | [Source code](https://github.com/configcat/react-sdk) |
 | Ruby | [Documentation](https://configcat.com/docs/sdk-reference/ruby/) | [Source code](https://github.com/configcat/ruby-sdk) |
 | Rust | [Documentation](https://configcat.com/docs/sdk-reference/rust/) | [Source code](https://github.com/configcat/rust-sdk) |
 | Swift (iOS) | [Documentation](https://configcat.com/docs/sdk-reference/ios/) | [Source code](https://github.com/configcat/swift-sdk) |
 | Unity | [Documentation](https://configcat.com/docs/sdk-reference/unity/) | [Source code](https://github.com/configcat/.net-sdk) |
 | Unreal Engine | [Documentation](https://configcat.com/docs/sdk-reference/unreal/) | [Source code](https://github.com/configcat/unreal-engine-sdk) |
+
+### Legacy SDKs
+
+| SDK  |      |      |
+| ---- | ---- | ---- |
+| JavaScript (Browser) | [Documentation](https://configcat.com/docs/sdk-reference/js/) | [Source code](https://github.com/configcat/js-sdk) |
+| JavaScript (Server-Side Rendered - SSR)| [Documentation](https://configcat.com/docs/sdk-reference/js-ssr/) | [Source code](https://github.com/configcat/js-ssr-sdk) |
+| Node.js | [Documentation](https://configcat.com/docs/sdk-reference/node/) | [Source code](https://github.com/configcat/node-sdk) |
 
 ### OpenFeature Providers
 [OpenFeature](https://openfeature.dev/docs/reference/intro) is an open specification that provides a vendor-agnostic, community-driven API for feature flagging. ConfigCat offers providers for the following platforms supported by OpenFeature SDKs.
